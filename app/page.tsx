@@ -4,13 +4,13 @@ import Link from "next/link";
 
 function HomePage() {
   return (
-    <main>
+    <div>
       <Button>
         <Link href="/campaigns" className="hidden sm:block">
           Campaigns
         </Link>
       </Button>
-    </main>
+    </div>
   );
 }
 
