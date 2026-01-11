@@ -6,7 +6,6 @@ import { Field, FieldDescription, FieldGroup, FieldLabel } from './ui/field';
 import { Input } from './ui/input';
 import { Button } from './ui/button';
 import { Loader2 } from 'lucide-react';
-import LoginForm from './LoginForm';
 import { toast } from 'sonner';
 import { loginAction, signupAction } from '@/actions/users';
 
